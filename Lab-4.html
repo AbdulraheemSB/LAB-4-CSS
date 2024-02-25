@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        
+    <img src="Wojak 2.png" alt="Wojak Reacting" class="image">
+    <img src="Wojak 1.png" alt="Wojak Pointing" class="image2">
+    
+    <h1>Gr8 Auto Parts 💯 - Order Form 📝</h1>
+
+
+    <form>
+
+        <label for="firstName">First Name: 🧑</label>
+        <div>
+            <input id="firstName" name="firstName" type="text" minlength="1" maxlength="20" size="20" required placeholder="Enter your first name">
+        </div>
+
+
+        <label for="lastName">Last Name: 👴</label>
+        <div>
+            <input id="lastName" name="lastName" type="text" size="20" required placeholder="Enter your last name">
+        </div>
+
+
+        <label for="Email">Email: 📩</label>
+        <div>
+            <input id="Email" name="Email" type="email" size="20" required placeholder="Enter your email address">
+        </div>
+
+        <label for="pNumber">Phone Number: 📞</label>
+        <div>
+            <input id="pNumber" name="pNumber" type="tel" size="20" required placeholder="Enter your phone number">
+        </div>
+
+
+        <label for="Make">Make: 🔧</label>
+        <div>
+            <input id="Make" name="Make" type="make" size="20" required placeholder="Make">
+        </div>
+
+        <label for="Model">Model: 🚘</label>
+        <div>
+            <input id="Model" name="Model" type="model" size="20" required placeholder="Model">
+        </div>
+
+
+        <label for="Year"> Year: 📆</label>
+        <div>
+            <input type="number" id="Year" name="Year" min="2015" max="2024" list="Years" placeholder="Year">
+        </div>
+        <datalist id="Years">
+            <option value="2024"></option>
+            <option value="2023"></option>
+            <option value="2022"></option>
+            <option value="2021"></option>
+            <option value="2020"></option>
+            <option value="2019"></option>
+            <option value="2018"></option>
+            <option value="2017"></option>
+            <option value="2016"></option>
+            <option value="2015"></option>
+        </datalist>
+
+
+        <label for="Date">Date: 📌</label>
+        <div>
+            <input type="date" id="Year">
+        </div>
+
+        <label for="Part">Spare Part: ⚙️</label>
+        <div>
+            <input id="Part" name="Part" type="part" size="20" required placeholder="Enter the spare part you need">
+        </div>
+
+        <label for="Quantity"> Quantity: 🧦</label>
+        <div>
+            <input type="number" id="Quantity" name="Quantity" min="1" max="3" list="Quantity" placeholder="Enter the quantity you need">
+        </div>
+        <datalist id="Quantity">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+
+        </datalist>
+
+
+
+
+
+        <label for="Comments">Comments: 🎙️</label>
+        <div>
+            <textarea id="Comments" rows="20" cols="60" placeholder="Enter your comment"></textarea>
+        </div>
+
+
+        <div>
+            <input type="submit" value="Submit 🤝">
+        </div>
+
+
+    </form>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body {
+    
+    font-weight: bold;
+    margin-left: 1000px;
+    
+}
+
+input{
+
+    width: 455px;
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+    text-indent: 7px;
+    
+}
+
+
+input[type="submit"]{
+
+background-color: black;
+color: white;
+
+    
+}
+
+textarea{
+
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+    text-indent: 7px;
+}
+
+
+
+.image {
+    
+    position: absolute;
+    top: 30%; 
+    left: 28%;
+    
+  
+}
+
+.image2 {
+    
+    position: absolute;
+    top: 30%; 
+    right: 30%
+    
+  
+}
